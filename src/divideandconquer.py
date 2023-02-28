@@ -1,6 +1,17 @@
 import random
 import math
 
+# Generate random titik 
+def random_points(points,dimensi):
+    arr_points = []
+    for i in range(points):
+        point1 = []
+        for j in range(dimensi):
+            point2 = random.uniform(-1000,1000)
+            point1.append(point2)
+        arr_points.append(point1)
+    return arr_points
+
 # Function to find the partition position
 def partition(arr, low, high):
     pivot = arr[(low+high)//2][0]
@@ -98,14 +109,3 @@ def closest_pair_DnC(arr,n,dimensi,count):
                     p1 = temp[i]
                     p2 = temp[j]
         return d,p1,p2,count
-
-# Generate random titik 
-def random_points(points,dimensi):
-    arr_points = []
-    for i in range(points):
-        point1 = []
-        for j in range(dimensi):
-            point2 = random.uniform(-1000,1000)
-            point1.append(point2)
-        arr_points.append(point1)
-    return arr_points

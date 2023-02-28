@@ -19,7 +19,7 @@ def visualisasi(arr_points,p1,p2):
     ax.scatter3D(p1[0], p1[1], p1[2], color="red")
     ax.scatter3D(p2[0], p2[1], p2[2], color="red")
     
-    plt.title("VISUALISASI")
+    plt.title("VISUALISASI 3D")
     ax.set_xlabel('X-axis', fontweight ='bold')
     ax.set_ylabel('Y-axis', fontweight ='bold')
     ax.set_zlabel('Z-axis', fontweight ='bold')

@@ -16,7 +16,7 @@ if (points > 0 and dimensi > 0):
         start1 = time.time()
         d,p1,p2,count = closest_pair_DnC(arr_points,points,dimensi,count)
         end1 = time.time()
-        timed1 = round((end1-start1)*1000,2)
+        timed1 = (end1-start1)*1000
         print("========================================")
         print("           DIVIDE AND CONQUER           ")
         print("========================================")
@@ -32,7 +32,7 @@ if (points > 0 and dimensi > 0):
         start2 = time.time()
         min,p1,p2,count = closest_pair_bf(arr_points,points,dimensi,count)
         end2 = time.time()
-        timed2 = round((end2-start2)*1000,2)
+        timed2 = (end2-start2)*1000
         print("========================================")
         print("              BRUTE FORCE               ")
         print("========================================")
@@ -50,7 +50,7 @@ if (points > 0 and dimensi > 0):
             start1 = time.time()
             d,p1,p2,count = closest_pair_DnC(arr_points,points,dimensi,count)
             end1 = time.time()
-            timed1 = round((end1-start1)*1000,2)
+            timed1 = (end1-start1)*1000
             print("========================================")
             print("           DIVIDE AND CONQUER           ")
             print("========================================")
@@ -66,7 +66,7 @@ if (points > 0 and dimensi > 0):
             start2 = time.time()
             min,p1,p2,count = closest_pair_bf(arr_points,points,dimensi,count)
             end2 = time.time()
-            timed2 = round((end2-start2)*1000,2)
+            timed2 = (end2-start2)*1000
             print("========================================")
             print("              BRUTE FORCE               ")
             print("========================================")
