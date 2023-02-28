@@ -9,3 +9,8 @@ Algoritma Pencarian Titik Terdekat :
   6. Masing-masing dari daerah bagian larik dicari jarak terkecilnya, kemudian dibandingkan dan diambil nilai minimum dari hasil perbandingan.
   7. Perbandingan ini terus dilakukan untuk setiap pembagian larik, hingga akhirnya didapat pasangan titik yang memiliki jarak terkecil sebagai hasil akhirnya.
 
+# Requirement program
+1. Python (direkomentasikan menggunkaan versi terbaru)
+2. matplotlib
+3. Beberapa library yang digunakan (random, time, numpy, math, platform)
+4. Code writer
