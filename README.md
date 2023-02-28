@@ -1,4 +1,4 @@
-# Tucil2_13521168
+# Deskripsi Singkat Program
 Tugas Kecil 2 Strategi Algoritma terkait penerapan strategi divide and conquer dalam menentukan jarak terdekat antara dua buah titik.
 Algoritma Pencarian Titik Terdekat :
   1. Awalnya, program akan menerima masukan banyaknya titik dan dimensi yang akan dicari. Jika masukan valid, yaitu titik > 0 dan dimensi > 0, maka masukan titik tersebut akan di random menggunkaan prosedure random_points.
@@ -14,3 +14,15 @@ Algoritma Pencarian Titik Terdekat :
 2. matplotlib
 3. Beberapa library yang digunakan (random, time, numpy, math, platform)
 4. Code writer
+
+# Cara Menggunakan Program
+- lakukan clone pada github ini
+- Buka file main.py di dalam folder src menggunakan code writer yang anda gunakan (VS Code)
+- Tekan tombol run atau F5 untuk menjalankan program
+- Masukkan jumlah titik 
+- Masukkan dimensi
+
+# Identitas Penulis
+- NIM  : 13521168
+- Nama : Satria Octavianus Nababan
+- Kelas : K02
