@@ -8,7 +8,7 @@ import numpy as np
 points = int(input("Masukkan banyak titik : ")) 
 dimensi = int(input("Masukkan dimensi : "))
 
-if (points > 0 and dimensi > 0):
+if (points > 1 and dimensi > 0):
     arr_points = random_points(points,dimensi)
     quickSort(arr_points,0,points-1)
     if (dimensi == 3):
